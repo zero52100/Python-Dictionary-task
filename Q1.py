@@ -1,5 +1,4 @@
-
-def student(student_name, father_name):
+def student(student_name, Parents_detail):
     student_combined = student_name.copy()
     student_combined.update(Parents_detail)
     return student_combined
